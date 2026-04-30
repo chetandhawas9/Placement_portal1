@@ -1,0 +1,38 @@
+# Maven build output
+target/
+**/target/
+*.class
+*.war
+*.jar
+*.ear
+
+# Eclipse IDE files
+.classpath
+.project
+.settings/
+.metadata/
+Servers/
+.factorypath
+
+# IntelliJ / VS Code
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local config and secrets
+.env
+*.env
+application-local.properties
+db.properties
+mail.properties
+
+# Runtime upload folders
+uploads/
+resumes/
